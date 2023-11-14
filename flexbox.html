@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Positionnement</title>
+  <style>
+    body {
+      height: 1000px;
+    }
+    
+    .article {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      margin: auto;
+      background-color: rgb(221, 221, 221);
+    }
+
+    .details {
+      background-color: blue;
+      position: absolute;
+      left: 80px;
+      top: 100px;
+    }
+
+    .fix {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 80px;
+      height: 30px;
+      color: white;
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="article">Block1
+    <div class="details">
+      Le HyperText Markup Language, généralement abrégé HTML ou ,dans sa dernière version, HTML5, est le langage de
+      balisage conçu pour représenter les pages web.
+    </div>
+  </div>
+  <div class="fix">
+    fix
+  </div>
+</body>
+
+</html>
